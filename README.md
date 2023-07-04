@@ -1,13 +1,13 @@
 # SUSTeR Sparse Unstructured Spatio Temporal Reconstruction
 
-![](images/Introduction.png)
+![](images/Introduction.jpeg)
 
 This repository contains the code to the paper: "SUSTeR: Sparse Unstructured Spatio Temporal Reconstruction on Traffic Prediction" which is currently under review.
 SUSTeR is a framework to reconstruct spatio temporal states from very sparse observations.
 Thereby sparse is meant in different aspects: spatial, temporal, or training samples wise.
 The framework wraps common spatio temporal Graph Neural Networks (STGNN) to enhance their performance with unstructured sparse data.
 
-![](images/Architecture.png)
+![](images/Architecture.jpeg)
 
 We test the frameowork on the METR-LA traffic dataset and wrap the popular STGCN algortihm with it. 
 The base implementations for the STGCN and the preperation of the data generator are used from the [BasicTS](https://github.com/zezhishao/BasicTS) repository.
