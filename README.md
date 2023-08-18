@@ -12,6 +12,14 @@ The framework wraps common spatio temporal Graph Neural Networks (STGNN) to enha
 We test the frameowork on the METR-LA traffic dataset and wrap the popular STGCN algortihm with it. 
 The base implementations for the STGCN and the preperation of the data generator are used from the [BasicTS](https://github.com/zezhishao/BasicTS) repository.
 
+## Performance 
+
+In the following table we show the performance of SUSTeR with different dropout rates on the METR-LA database.
+The performance is compared with both baselines algorithms STGCN and D2STGNN.
+In the first 4 columns we show how our mandatory modifications to these algorithms, to compare them with our framework, affects the performance.
+The three right most columns show the performance comparison at the introduced sparse and unstructured traffic reconstruction problem.
+
+![](images/Table_Results.jpg)
 
 ## Usage 
 
