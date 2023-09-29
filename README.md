@@ -21,6 +21,12 @@ The three right most columns show the performance comparison at the introduced s
 
 ![](images/Table_Results.jpg)
 
+
+In favor of space and explanation we left out in the paper the impact of the modification onto the PEMS-BAY dataset.
+For completeness we provide here the same table as with the METR-LA dataset with the PEMS-BAY dataset to better compare the the impact of the modifications and the great results of SUSTeR.
+
+![](images/Performance%20Results%20PEMS-BAY.png)
+
 ## Usage 
 
 ### Dependencies
