@@ -1,8 +1,10 @@
+[![DOI](https://img.shields.io/badge/DOI-10.1145%2F3589132.3625631-blue?style=for-the-badge)](https://doi.org/10.1145/3589132.3625631)
+[![arXiv](https://img.shields.io/badge/arXiv-2502.16935-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2502.16935)
 # SUSTeR Sparse Unstructured Spatio Temporal Reconstruction
 
 ![](images/Introduction.jpeg)
 
-This repository contains the code to the paper: "SUSTeR: Sparse Unstructured Spatio Temporal Reconstruction on Traffic Prediction" which is currently under review.
+This repository contains the code to the [paper](https://doi.org/10.1145/3589132.3625631): "SUSTeR: Sparse Unstructured Spatio Temporal Reconstruction on Traffic Prediction" which was presented at **ACM SIGSPATIAL 2023** in Hamburg.
 SUSTeR is a framework to reconstruct spatio temporal states from very sparse observations.
 Thereby sparse is meant in different aspects: spatial, temporal, or training samples wise.
 The framework wraps common spatio temporal Graph Neural Networks (STGNN) to enhance their performance with unstructured sparse data.
@@ -75,4 +77,24 @@ See the help displayment for the parameters which are documented in the paper.
     --embed_dim EMBED_DIM
                             The latent embedding dimension
     --epochs EPOCHS
+```
+
+
+### Citation 
+
+You can cite our work with the following BibTex: 
+
+```md
+@inproceedings{woelker23,
+    author = {W\"{o}lker, Yannick and Beth, Christian and Renz, Matthias and Biastoch, Arne},
+    title = {SUSTeR: Sparse Unstructured Spatio Temporal Reconstruction on Traffic Prediction},
+    year = {2023},
+    isbn = {9798400701689},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3589132.3625631},
+    doi = {10.1145/3589132.3625631},
+    location = {Hamburg, Germany},
+    series = {SIGSPATIAL '23}
+}
 ```
