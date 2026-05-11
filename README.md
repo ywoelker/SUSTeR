@@ -1,8 +1,22 @@
+<h1 align="center">
+  SUSTeR: Sparse Unstructured Spatio Temporal Reconstruction
+</h1>
+
+<p align="center">
+  <b>Yannick Wölker</b><sup>1,2</sup>,
+  Christian Beth<sup>2</sup>,
+  Matthias Renz<sup>2</sup>,
+  Arne Biastoch<sup>1,2</sup>
+</p>
+
+<p align="center">
+  <sup>1</sup> GEOMAR Helmholtz Centre for Ocean Research Kiel<br>
+  <sup>2</sup> Kiel University
+</p>
+
 [![DOI](https://img.shields.io/badge/DOI-10.1145%2F3589132.3625631-blue?style=for-the-badge)](https://doi.org/10.1145/3589132.3625631)
 [![arXiv](https://img.shields.io/badge/arXiv-2502.16935-b31b1b.svg?style=for-the-badge)](https://arxiv.org/abs/2502.16935)
-# SUSTeR Sparse Unstructured Spatio Temporal Reconstruction
 
-![](images/Introduction.jpeg)
 
 This repository contains the code to the [paper](https://doi.org/10.1145/3589132.3625631): "SUSTeR: Sparse Unstructured Spatio Temporal Reconstruction on Traffic Prediction" which was presented at **ACM SIGSPATIAL 2023** in Hamburg.
 SUSTeR is a framework to reconstruct spatio temporal states from very sparse observations.
